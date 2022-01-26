@@ -1,0 +1,32 @@
+@import url(reset.css);
+
+body{
+    background-color:#111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 16px;
+    height: 16px;
+    background-color:rgb(53, 53, 53);
+    margin: 2px;
+    box-shadow: 0px 0px 2px black;
+    transition: 1s ease;
+}
+
+.square:hover{
+    transition-duration: 0s;
+}
